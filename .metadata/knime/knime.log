@@ -1,0 +1,372 @@
+2023-05-15 21:27:39,291 : WARN  : ModalContext :  : Node : MISSING Strings To Document : 3:287:34 : Node can't be executed - Node "Strings To Document" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2023-05-15 21:27:39,297 : WARN  : ModalContext :  : FileNodePersistor : MISSING Topic Extractor (Parallel LDA) : 3:15 : Unable to load port content for node "MISSING Topic Extractor (Parallel LDA)": Invalid outport index in settings: 3
+org.knime.core.node.InvalidSettingsException: Invalid outport index in settings: 3
+	at org.knime.core.node.FileNodePersistor.loadPorts(FileNodePersistor.java:324)
+	at org.knime.core.node.FileNodePersistor.load(FileNodePersistor.java:995)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndWashModelSettings(FileNativeNodeContainerPersistor.java:254)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:267)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8698)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8600)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8714)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8600)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8464)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8385)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8358)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8202)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:171)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+2023-05-15 21:27:39,376 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: DataLoadError: Topic Detection Based on Movie Reviews 3 loaded with error during data load
+2023-05-15 21:27:39,376 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: DataLoadError: Topic Detection Based on Movie Reviews 3
+2023-05-15 21:27:39,376 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "Topic Extractor (Parallel LDA)" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2023-05-15 21:27:39,377 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Document Creation and document pre-processing 3:287
+2023-05-15 21:27:39,377 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Punctuation Erasure" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2023-05-15 21:27:39,377 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Number Filter" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2023-05-15 21:27:39,377 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "N Chars Filter" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2023-05-15 21:27:39,377 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Case Converter" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2023-05-15 21:27:39,378 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Strings To Document" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2023-05-15 21:27:39,378 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Stop Word Filter" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2023-05-15 21:27:39,378 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: MISSING Strings To Document 3:287:34
+2023-05-15 21:27:39,378 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: Warning: State has changed from CONFIGURED to IDLE
+2023-05-15 21:27:39,378 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from CONFIGURED to IDLE
+2023-05-15 21:27:39,378 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: MISSING Topic Extractor (Parallel LDA) 3:15
+2023-05-15 21:27:39,378 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "MISSING Topic Extractor (Parallel LDA)": Invalid outport index in settings: 3
+2023-05-15 21:27:39,379 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from CONFIGURED to IDLE
+2023-05-15 21:27:39,379 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: State has changed from CONFIGURED to IDLE
+2023-05-15 21:28:42,046 : WARN  : ModalContext :  : Node : Excel Reader : 4:112 : The node configuration changed and the table spec will be recalculated during execution.
+2023-05-15 21:30:13,782 : WARN  : ModalContext :  : Node : Excel Reader : 3:112 : The node configuration changed and the table spec will be recalculated during execution.
+2023-05-15 21:32:50,667 : WARN  : main :  : Node : File Reader : 3:1 : Please specify a file
+2023-05-15 21:35:09,132 : WARN  : main :  : Node : Table Reader : 3:2 : Please specify a file
+2023-05-15 21:45:29,791 : WARN  : KNIME-Worker-13-Extract Missing Value Cause 3:4 :  : Node : Extract Missing Value Cause : 3:4 : Node created an empty data table.
+2023-05-15 21:46:27,057 : WARN  : KNIME-Worker-15-Extract Missing Value Cause 3:4 :  : Node : Extract Missing Value Cause : 3:4 : Node created an empty data table.
+2023-05-15 21:53:25,422 : WARN  : main :  : Node : Color Manager : 3:6 : Selected column "KartTipi" with default nominal color mapping.
+2023-05-15 21:56:06,601 : WARN  : KNIME-Worker-18-Line Plot 3:5 :  : Node : Line Plot : 3:5 : Only the first 2500 rows are displayed.
+2023-05-15 22:16:25,117 : WARN  : main :  : Node : Scatter Matrix (local) : 3:10 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2023-05-15 22:16:49,494 : WARN  : KNIME-Worker-25-Scatter Matrix (local) 3:10 :  : Node : Scatter Matrix (local) : 3:10 : Only the first 2500 rows are displayed.
+2023-05-15 22:17:37,429 : WARN  : KNIME-Worker-26-Scatter Plot (local) 3:9 :  : Node : Scatter Plot (local) : 3:9 : Only the first 2500 rows are displayed.
+2023-05-15 22:18:11,359 : WARN  : KNIME-Worker-27-Scatter Plot 3:9 :  : Node : Scatter Plot : 3:9 : Only the first 2500 rows are displayed.
+2023-05-15 22:42:03,045 : WARN  : KNIME-Worker-34-Sunburst Chart 3:12 :  : Node : Sunburst Chart : 3:12 : Only the first 2500 rows are displayed.
+2023-05-15 22:42:57,263 : WARN  : KNIME-Worker-35-Sunburst Chart 3:12 :  : Node : Sunburst Chart : 3:12 : Only the first 2500 rows are displayed.
+2023-05-15 22:43:57,738 : WARN  : KNIME-Worker-36-Sunburst Chart 3:12 :  : Node : Sunburst Chart : 3:12 : Only the first 2500 rows are displayed.
+2023-05-15 22:45:38,952 : WARN  : KNIME-Worker-37-Sunburst Chart 3:12 :  : Node : Sunburst Chart : 3:12 : Only the first 2500 rows are displayed.
+2023-05-15 22:46:09,077 : WARN  : KNIME-Worker-38-Sunburst Chart 3:12 :  : Node : Sunburst Chart : 3:12 : Only the first 2500 rows are displayed.
+2023-05-15 22:46:46,001 : WARN  : KNIME-Worker-39-Sunburst Chart 3:12 :  : Node : Sunburst Chart : 3:12 : Only the first 2500 rows are displayed.
+2023-05-15 22:48:12,548 : WARN  : KNIME-Worker-40-Sunburst Chart 3:12 :  : Node : Sunburst Chart : 3:12 : Only the first 2500 rows are displayed.
+2023-05-15 22:49:19,698 : WARN  : main :  : Node : Row Filter : 3:13 : No row filter specified
+2023-05-15 23:00:48,945 : WARN  : KNIME-Worker-47-Scatter Plot 3:15 :  : Node : Scatter Plot : 3:15 : Only the first 2500 rows are displayed.
+2023-05-15 23:03:11,997 : WARN  : main :  : Node : Row Filter : 3:17 : No row filter specified
+2023-05-26 10:53:16,122 : WARN  : main :  : Node : CSV Reader : 3:19 : Please specify a file
+2023-05-26 10:56:05,030 : WARN  : main :  : WizardNodeView :  :  : Unable to retrieve value from view
+2023-05-26 10:57:26,178 : WARN  : KNIME-Worker-9-String To Number 3:23 :  : AbstractStringToNumberNodeModel : String To Number : 3:23 : Values in 30000 cells could not be parsed, first error: The string "France" in cell [row "1", column "Konum"] can not be transformed into a number: For input string: "France"
+2023-05-26 10:57:26,179 : WARN  : KNIME-Worker-9-String To Number 3:23 :  : Node : String To Number : 3:23 : Problems occurred, see Console messages.
+2023-05-26 10:57:47,966 : WARN  : KNIME-Worker-10-String To Number 3:23 :  : AbstractStringToNumberNodeModel : String To Number : 3:23 : Values in 30000 cells could not be parsed, first error: The string "France" in cell [row "1", column "Konum"] can not be transformed into a number: For input string: "France"
+2023-05-26 10:57:47,966 : WARN  : KNIME-Worker-10-String To Number 3:23 :  : Node : String To Number : 3:23 : Problems occurred, see Console messages.
+2023-05-26 11:04:40,457 : WARN  : main :  : Node : Hierarchical Clustering (DistMatrix) : 3:27 : Configuration is missing.
+2023-05-26 11:05:03,136 : WARN  : main :  : Node : Normalizer : 3:27 : Auto-configure: [0, 1] normalization on all numeric columns: "KrediSkoru", "Yas", "UyelikSuresi",  ... <12 more>
+2023-05-26 11:09:44,727 : WARN  : KNIME-Worker-10-Hierarchical Clustering 3:28 :  : Node : Hierarchical Clustering : 3:28 : Execution canceled
+2023-05-26 11:10:18,827 : WARN  : main :  : Node : Hierarchical Clustering (DistMatrix) : 3:28 : Configuration is missing.
+2023-05-26 11:10:34,006 : WARN  : main :  : Node : Hierarchical Clustering (DistMatrix) : 3:28 : Configuration is missing.
+2023-05-26 11:10:36,533 : WARN  : KNIME-Worker-12-Normalizer 3:27 :  : Node : Hierarchical Clustering (DistMatrix) : 3:28 : Configuration is missing.
+2023-05-26 11:10:43,135 : WARN  : main :  : WrappedNodeDialog : Hierarchical Clustering (DistMatrix) : 3:28 : failed to apply settings: No Distance Matrix column selected.
+org.knime.core.node.InvalidSettingsException: No Distance Matrix column selected.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:272)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:222)
+	at org.knime.base.node.mine.cluster.hierarchical.ParHieClusterNodeDialog.saveSettingsTo(ParHieClusterNodeDialog.java:166)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:540)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:779)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2023-05-26 11:11:35,262 : WARN  : main :  : Node : Distance Matrix Calculate : 3:28 : Distance not set.
+2023-05-26 11:11:54,633 : WARN  : ModalContext :  : Node : Table Reader (deprecated) : 4:8 : Input file 'C:\Users\Duygu\knime-workspace\hiyerarsik kumeleme\data\iris.table' does not exist
+2023-05-26 11:12:54,338 : WARN  : main :  : Node : Hierarchical Clustering : 3:41 : Column 'sepal length' does not exist in input table
+2023-05-26 11:15:07,159 : WARN  : main :  : Node : Color Manager : 3:42 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2023-05-26 11:18:32,676 : WARN  : KNIME-Worker-16-Hierarchical Clustering (DistMatrix) 3:44 :  : Node : Hierarchical Clustering (DistMatrix) : 3:44 : Execution canceled
+2023-05-26 11:18:32,677 : WARN  : KNIME-Worker-13-Hierarchical Clustering 3:41 :  : Node : Hierarchical Clustering : 3:41 : Execution canceled
+2023-05-26 11:18:32,682 : WARN  : KNIME-Worker-13-Hierarchical Clustering 3:41 :  : Node : Color Manager : 3:42 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2023-05-26 11:18:44,781 : WARN  : main :  : Node : Color Manager : 3:42 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2023-05-26 11:18:48,370 : WARN  : main :  : Node : Color Manager : 3:42 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2023-05-26 11:18:58,846 : WARN  : KNIME-Worker-18-Normalizer 3:27 :  : Node : Color Manager : 3:42 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2023-05-26 11:24:14,109 : WARN  : ModalContext :  : Node : Table Reader (deprecated) : 4:1 : Input file 'C:\Users\Duygu\knime-workspace\k-means kumeleme\data\iris.table' does not exist
+2023-05-26 11:24:39,109 : WARN  : KNIME-Worker-38-Hierarchical Clustering (DistMatrix) 3:44 :  : Node : Hierarchical Clustering (DistMatrix) : 3:44 : Execution canceled
+2023-05-26 11:24:57,881 : WARN  : KNIME-Worker-41-Hierarchical Clustering 3:41 :  : Node : Hierarchical Clustering : 3:41 : Execution canceled
+2023-05-26 11:24:57,882 : WARN  : KNIME-Worker-41-Hierarchical Clustering 3:41 :  : Node : Color Manager : 3:42 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2023-05-26 11:25:30,926 : WARN  : main :  : Node : Color Manager : 3:155 : Column "class" not found.
+2023-05-26 11:25:38,458 : WARN  : KNIME-Worker-39-Scatter Plot 3:154 :  : Node : Scatter Plot : 3:154 : Only the first 2500 rows are displayed.
+2023-05-26 11:25:44,328 : WARN  : KNIME-Worker-46-Scatter Plot 3:154 :  : Node : Scatter Plot : 3:154 : Only the first 2500 rows are displayed.
+2023-05-26 11:26:59,855 : WARN  : KNIME-Worker-58-Scatter Plot 3:143 :  : Node : Scatter Plot : 3:143 : Only the first 2500 rows are displayed.
+2023-05-26 11:29:36,119 : WARN  : KNIME-Worker-60-Scatter Plot 3:143 :  : Node : Scatter Plot : 3:143 : Only the first 2500 rows are displayed.
+2023-05-26 11:29:51,006 : WARN  : KNIME-Worker-61-Scatter Plot 3:143 :  : Node : Scatter Plot : 3:143 : Only the first 2500 rows are displayed.
+2023-05-26 11:30:04,190 : WARN  : KNIME-Worker-62-Scatter Plot 3:143 :  : Node : Scatter Plot : 3:143 : Only the first 2500 rows are displayed.
+2023-05-26 11:32:55,444 : WARN  : main :  : Node : Hierarchical Clustering (DistMatrix) : 3:144 : Configuration is missing.
+2023-05-26 11:33:00,195 : WARN  : main :  : WrappedNodeDialog : Hierarchical Clustering (DistMatrix) : 3:144 : failed to apply settings: No Distance Matrix column selected.
+org.knime.core.node.InvalidSettingsException: No Distance Matrix column selected.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:272)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:222)
+	at org.knime.base.node.mine.cluster.hierarchical.ParHieClusterNodeDialog.saveSettingsTo(ParHieClusterNodeDialog.java:166)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:540)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:779)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2023-05-26 11:33:02,660 : WARN  : main :  : WrappedNodeDialog : Hierarchical Clustering (DistMatrix) : 3:144 : failed to apply settings: No Distance Matrix column selected.
+org.knime.core.node.InvalidSettingsException: No Distance Matrix column selected.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:272)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:222)
+	at org.knime.base.node.mine.cluster.hierarchical.ParHieClusterNodeDialog.saveSettingsTo(ParHieClusterNodeDialog.java:166)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:540)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:779)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2023-05-26 11:33:11,770 : WARN  : ModalContext :  : Node : Table Reader (deprecated) : 5:8 : Input file 'C:\Users\Duygu\knime-workspace\hiyerarsik kumeleme\data\iris.table' does not exist
+2023-05-26 11:33:53,728 : WARN  : main :  : Node : Normalizer : 3:27 : Auto-configure: [0, 1] normalization on all numeric columns: "KrediSkoru", "Yas", "UyelikSuresi",  ... <12 more>
+2023-05-26 11:34:26,375 : WARN  : main :  : Node : Distance Matrix Calculate : 3:28 : Distance not set.
+2023-05-26 11:36:36,754 : WARN  : main :  : Node : Hierarchical Clustering (DistMatrix) : 3:29 : Configuration is missing.
+2023-05-26 11:36:36,754 : WARN  : main :  : Node : Hierarchical Clustering (DistMatrix) : 3:29 : Configuration is missing.
+2023-05-26 11:39:24,664 : WARN  : KNIME-Worker-79-Hierarchical Clustering (DistMatrix) 3:29 :  : Node : Hierarchical Clustering (DistMatrix) : 3:29 : Execution canceled
+2023-05-30 13:10:15,401 : WARN  : main :  : Node : Linear Correlation : 3:28 : Auto configuration: Using all suitable columns (in total 15)
+2023-05-30 13:17:27,374 : WARN  : main :  : Node : File Reader : 3:30 : Please specify a file
+2023-05-30 13:19:06,206 : WARN  : main :  : Node : Normalizer : 3:31 : Auto-configure: [0, 1] normalization on all numeric columns: "KrediSkoru", "Yas", "UyelikSuresi",  ... <12 more>
+2023-05-30 13:22:16,716 : WARN  : main :  : Node : Create Collection Column : 3:31 : Auto configuration: Using all suitable columns (in total 15)
+2023-05-30 13:23:11,819 : ERROR : KNIME-Worker-29 :  : ThreadPool :  :  : An exception occurred while executing a runnable.
+java.lang.NullPointerException: Cannot invoke "String.length()" because "<parameter1>" is null
+	at java.base/java.lang.AbstractStringBuilder.<init>(Unknown Source)
+	at java.base/java.lang.StringBuilder.<init>(Unknown Source)
+	at com.knime.explorer.server.rest.RestMetaInfo.<init>(RestMetaInfo.java:87)
+	at com.knime.explorer.server.rest.RestMetaInfo.<init>(RestMetaInfo.java:70)
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.getMetaInfo(RestServerExplorerFileStore.java:2051)
+	at com.knime.explorer.server.ExplorerServerContentProvider.lambda$4(ExplorerServerContentProvider.java:1731)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-05-30 13:23:48,016 : ERROR : KNIME-Worker-30 :  : ThreadPool :  :  : An exception occurred while executing a runnable.
+java.lang.NullPointerException: Cannot invoke "String.length()" because "<parameter1>" is null
+	at java.base/java.lang.AbstractStringBuilder.<init>(Unknown Source)
+	at java.base/java.lang.StringBuilder.<init>(Unknown Source)
+	at com.knime.explorer.server.rest.RestMetaInfo.<init>(RestMetaInfo.java:87)
+	at com.knime.explorer.server.rest.RestMetaInfo.<init>(RestMetaInfo.java:70)
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.getMetaInfo(RestServerExplorerFileStore.java:2051)
+	at com.knime.explorer.server.ExplorerServerContentProvider.lambda$4(ExplorerServerContentProvider.java:1731)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-05-30 13:26:40,093 : WARN  : main :  : Node : Normalizer : 3:31 : Auto-configure: [0, 1] normalization on all numeric columns: "KrediSkoru", "Yas", "UyelikSuresi",  ... <12 more>
+2023-05-30 13:27:05,513 : WARN  : main :  : Node : Color Manager : 3:33 : Selected column "Cluster" with default nominal color mapping.
+2023-05-30 13:28:31,932 : WARN  : KNIME-Worker-38-Scatter Plot 3:34 :  : Node : Scatter Plot : 3:34 : Only the first 2500 rows are displayed.
+2023-05-30 13:29:19,490 : WARN  : KNIME-Worker-39-Scatter Plot 3:34 :  : Node : Scatter Plot : 3:34 : Only the first 2500 rows are displayed.
+2023-05-30 13:29:36,203 : WARN  : KNIME-Worker-40-Scatter Plot 3:34 :  : Node : Scatter Plot : 3:34 : Only the first 2500 rows are displayed.
+2023-05-30 13:29:51,456 : WARN  : KNIME-Worker-41-Scatter Plot 3:34 :  : Node : Scatter Plot : 3:34 : Only the first 2500 rows are displayed.
+2023-05-30 13:30:15,902 : WARN  : KNIME-Worker-42-Scatter Plot 3:34 :  : Node : Scatter Plot : 3:34 : Only the first 2500 rows are displayed.
+2023-05-30 13:30:49,638 : WARN  : KNIME-Worker-43-Scatter Plot 3:34 :  : Node : Scatter Plot : 3:34 : Only the first 2500 rows are displayed.
+2023-05-30 13:31:44,211 : WARN  : main :  : Node : Partitioning : 3:35 : No sampling method selected
+2023-05-30 13:32:37,229 : WARN  : main :  : Node : Logistic Regression Learner : 3:36 : No column in spec compatible to "NominalValue".
+2023-05-30 13:34:39,393 : WARN  : main :  : Node : Logistic Regression Learner : 3:36 : No column in spec compatible to "NominalValue".
+2023-05-30 13:35:45,090 : WARN  : main :  : Node : Joiner : 3:37 : No join columns passed.
+2023-05-30 13:36:00,170 : WARN  : main :  : Node : Joiner : 3:37 : No join columns passed.
+2023-05-30 13:40:58,101 : WARN  : main :  : Node : Normalizer : 3:40 : Auto-configure: [0, 1] normalization on all numeric columns: "KrediSkoru", "Yas", "UyelikSuresi",  ... <13 more>
+2023-05-30 13:41:34,836 : WARN  : main :  : Node : Logistic Regression Learner : 3:36 : The target is not in the input.
+2023-05-30 13:43:41,519 : WARN  : KNIME-Worker-53-Partitioning 3:35 :  : Node : Logistic Regression Learner : 3:36 : The target is not in the input.
+2023-05-30 13:44:37,233 : WARN  : main :  : Node : Decision Tree Learner : 3:41 : Table contains no nominal attribute for classification.
+2023-05-30 13:45:26,471 : WARN  : main :  : Node : Logistic Regression Learner : 3:41 : No column in spec compatible to "NominalValue".
+2023-05-30 13:46:21,956 : WARN  : main :  : Node : Normalizer : 3:40 : No columns included - input stays unchanged.
+The following columns were included before but no longer exist:
+"KrediSkoru", "Yas", "UyelikSuresi",  ... <12 more>
+2023-05-30 13:46:30,730 : WARN  : main :  : Node : Logistic Regression Learner : 3:41 : Type of column "Clusterlabeled" is not nominal.
+2023-05-30 13:46:34,023 : WARN  : KNIME-Worker-56-Number To String 3:42 :  : Node : Logistic Regression Learner : 3:41 : Type of column "Clusterlabeled" is not nominal.
+2023-05-30 13:46:53,724 : WARN  : main :  : Node : Logistic Regression Learner : 3:41 : Type of column "Clusterlabeled" is not nominal.
+2023-05-30 13:46:56,566 : WARN  : main :  : Node : Logistic Regression Learner : 3:41 : Type of column "Clusterlabeled" is not nominal.
+2023-05-30 13:46:58,033 : WARN  : KNIME-Worker-57-Normalizer 3:40 :  : Node : Logistic Regression Learner : 3:41 : Type of column "Clusterlabeled" is not nominal.
+2023-05-30 13:47:00,122 : WARN  : KNIME-Worker-58-Partitioning 3:35 :  : Node : Logistic Regression Learner : 3:41 : Type of column "Clusterlabeled" is not nominal.
+2023-05-30 13:47:47,158 : WARN  : KNIME-Worker-59-Logistic Regression Learner 3:41 :  : Node : Logistic Regression Learner : 3:41 : The algorithm did not reach convergence after the specified number of epochs. Setting the epoch limit higher might result in a better model.
+2023-05-30 13:47:59,804 : WARN  : main :  : Node : Logistic Regression Predictor : 3:43 : The table for prediction does not contain the column "KrediSkoru".
+2023-05-30 13:48:29,716 : WARN  : main :  : Node : Logistic Regression Predictor : 3:43 : The table for prediction does not contain the column "KrediSkoru".
+2023-05-30 13:48:55,715 : WARN  : main :  : Node : File Reader : 3:30 : Please specify a file
+2023-05-30 13:53:44,543 : WARN  : main :  : Node : Normalizer : 3:35 : Auto-configure: [0, 1] normalization on all numeric columns: "CustomerId", "KrediSkoru", "Yas",  ... <13 more>
+2023-05-30 13:54:34,324 : WARN  : main :  : Node : Partitioning : 3:36 : No sampling method selected
+2023-05-30 13:55:54,324 : WARN  : main :  : Node : Decision Tree Learner : 3:38 : Table contains no nominal attribute for classification.
+2023-05-30 13:59:56,645 : WARN  : main :  : Node : Category To Number : 3:39 : No columns selected.
+2023-05-30 14:00:50,207 : WARN  : main :  : Node : Decision Tree Learner : 3:38 : Guessing target column: "Churn".
+2023-05-30 14:40:24,951 : WARN  : main :  : Node : ROC Curve : 3:41 : Class column 'null ' does not exist
+2023-05-30 14:40:38,765 : WARN  : main :  : Node : Color Manager : 3:41 : Selected column "Prediction (Churn)" with default nominal color mapping.
+2023-05-30 14:40:48,964 : WARN  : main :  : Node : ROC Curve : 3:42 : Class column 'null ' does not exist
+2023-05-30 14:40:54,525 : WARN  : main :  : Node : ROC Curve : 3:42 : Class column 'null ' does not exist
+2023-05-30 14:41:04,225 : WARN  : main :  : Node : ROC Curve : 3:42 : Class column 'null ' does not exist
+2023-05-30 14:41:13,291 : WARN  : main :  : Node : ROC Curve : 3:42 : No value for the positive class chosen
+2023-05-30 14:41:14,843 : WARN  : KNIME-Worker-75-Color Manager 3:41 :  : Node : ROC Curve : 3:42 : No value for the positive class chosen
+2023-05-30 14:41:19,108 : WARN  : main :  : Node : ROC Curve : 3:42 : No value for the positive class chosen
+2023-05-30 14:42:03,015 : WARN  : main :  : Node : Scorer : 3:43 : No columns selected yet.
+2023-05-30 14:48:26,810 : WARN  : main :  : Node : Partitioning : 3:46 : No sampling method selected
+2023-05-30 14:50:25,515 : WARN  : main :  : PasteAction :  :  : System clipboard does not contain KNIME workflow contents.
+java.lang.IllegalArgumentException: System clipboard does not contain KNIME workflow contents.
+	at org.knime.shared.workflow.storage.clipboard.SystemClipboardFormat.lambda$0(SystemClipboardFormat.java:90)
+	at org.knime.shared.workflow.storage.clipboard.SystemClipboardFormat.deserialize(SystemClipboardFormat.java:163)
+	at org.knime.workbench.editor2.actions.PasteAction.getSystemClipboardAsDef(PasteAction.java:145)
+	at org.knime.workbench.editor2.actions.PasteAction.runOnNodes(PasteAction.java:185)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.runInSWT(AbstractNodeAction.java:174)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction$1.run(AbstractNodeAction.java:160)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4790)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.run(AbstractNodeAction.java:157)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor94.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:580)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:647)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:439)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1065)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1542)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4868)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4746)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5026)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3643)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:191)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+2023-05-30 14:51:56,409 : WARN  : main :  : Node : Scorer : 3:49 : No columns selected yet.
+2023-05-30 14:52:10,026 : WARN  : KNIME-Worker-94-Logistic Regression Learner 3:47 :  : Node : Logistic Regression Learner : 3:47 : The algorithm did not reach convergence after the specified number of epochs. Setting the epoch limit higher might result in a better model.
+2023-05-30 14:56:18,744 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 4:4 : Internal model could not be loaded.
+2023-05-30 14:56:18,806 : WARN  : ModalContext :  : Node : Line Plot (local) : 4:18 : No columns to visualize are available! Please refer to the NodeDescription to find out why!
+2023-05-30 14:56:38,011 : WARN  : ModalContext :  : Node : K Nearest Neighbor : 4:11 : Input table contains more than one non-numeric column; they will be ignored.
+2023-05-30 14:56:38,011 : WARN  : ModalContext :  : Node : K Nearest Neighbor : 4:11 : Input table contains more than one non-numeric column; they will be ignored.
+2023-05-30 14:56:38,011 : WARN  : ModalContext :  : Node : K Nearest Neighbor : 4:11 : Input table contains more than one non-numeric column; they will be ignored.
+2023-05-30 14:56:38,013 : WARN  : ModalContext :  : Node : K Nearest Neighbor : 4:18 : Input table contains more than one non-numeric column; they will be ignored.
+2023-05-30 14:56:38,014 : WARN  : ModalContext :  : Node : K Nearest Neighbor : 4:18 : Input table contains more than one non-numeric column; they will be ignored.
+2023-05-30 14:56:38,014 : WARN  : ModalContext :  : Node : K Nearest Neighbor : 4:18 : Input table contains more than one non-numeric column; they will be ignored.
+2023-05-30 14:56:38,015 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 4:9 : Internal model could not be loaded.
+2023-05-30 14:56:38,134 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: DataLoadError: ist434_ornek_3.knwf 4 loaded with error during data load
+2023-05-30 14:56:38,134 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: DataLoadError: ist434_ornek_3.knwf 4
+2023-05-30 14:56:38,135 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "Scorer (JavaScript)" not available from extension "KNIME JavaScript Views (Labs)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.js.views.labs" is not installed)
+2023-05-30 14:56:38,135 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "Scorer (JavaScript)" not available from extension "KNIME JavaScript Views (Labs)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.js.views.labs" is not installed)
+2023-05-30 14:56:38,135 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "Scorer (JavaScript)" not available from extension "KNIME JavaScript Views (Labs)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.js.views.labs" is not installed)
+2023-05-30 14:56:38,136 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: CSV Reader 4:1
+2023-05-30 14:56:38,136 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "CSV Reader": No such data file: C:\Users\ramaz\AppData\Local\Temp\knime_temp_space_ramaz_95054\ist434_ornek_3.knwf95057\D\Hacettepe\Big Data\2. Hafta\uygulama 2\ist434_ornek_3.knwf\CSV Reader (#1)\port_1\data.xml
+2023-05-30 14:56:38,136 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to CONFIGURED
+2023-05-30 14:56:38,136 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Table Creator 4:2
+2023-05-30 14:56:38,136 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Table Creator": No such data file: C:\Users\ramaz\AppData\Local\Temp\knime_temp_space_ramaz_95054\ist434_ornek_3.knwf95057\D\Hacettepe\Big Data\2. Hafta\uygulama 2\ist434_ornek_3.knwf\Table Creator (#2)\port_1\data.xml
+2023-05-30 14:56:38,136 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to CONFIGURED
+2023-05-30 14:56:38,136 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Table Creator 4:3
+2023-05-30 14:56:38,136 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Table Creator": No such data file: C:\Users\ramaz\AppData\Local\Temp\knime_temp_space_ramaz_95054\ist434_ornek_3.knwf95057\D\Hacettepe\Big Data\2. Hafta\uygulama 2\ist434_ornek_3.knwf\Table Creator (#3)\port_1\data.xml
+2023-05-30 14:56:38,137 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to CONFIGURED
+2023-05-30 14:56:38,137 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Joiner 4:4
+2023-05-30 14:56:38,137 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Joiner": No such data file: C:\Users\ramaz\AppData\Local\Temp\knime_temp_space_ramaz_95054\ist434_ornek_3.knwf95057\D\Hacettepe\Big Data\2. Hafta\uygulama 2\ist434_ornek_3.knwf\Joiner (#4)\port_1\data.xml
+2023-05-30 14:56:38,137 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Joiner 4:5
+2023-05-30 14:56:38,137 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Joiner": No such data file: C:\Users\ramaz\AppData\Local\Temp\knime_temp_space_ramaz_95054\ist434_ornek_3.knwf95057\D\Hacettepe\Big Data\2. Hafta\uygulama 2\ist434_ornek_3.knwf\Joiner (#5)\port_1\data.xml
+2023-05-30 14:56:38,137 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Column Filter 4:6
+2023-05-30 14:56:38,137 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Column Filter": No such data file: C:\Users\ramaz\AppData\Local\Temp\knime_temp_space_ramaz_95054\ist434_ornek_3.knwf95057\D\Hacettepe\Big Data\2. Hafta\uygulama 2\ist434_ornek_3.knwf\Column Filter (#6)\port_1\data.xml
+2023-05-30 14:56:38,138 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Partitioning 4:7
+2023-05-30 14:56:38,138 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Partitioning": No such data file: C:\Users\ramaz\AppData\Local\Temp\knime_temp_space_ramaz_95054\ist434_ornek_3.knwf95057\D\Hacettepe\Big Data\2. Hafta\uygulama 2\ist434_ornek_3.knwf\Partitioning (#7)\port_1\data.xml
+2023-05-30 14:56:38,138 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: ROC Curve 4:16
+2023-05-30 14:56:38,138 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "ROC Curve": Can't read spec file C:\Users\ramaz\AppData\Local\Temp\knime_temp_space_ramaz_95054\ist434_ornek_3.knwf95057\D\Hacettepe\Big Data\2. Hafta\uygulama 2\ist434_ornek_3.knwf\ROC Curve (#16)\port_1\spec\spec.zip
+2023-05-30 14:56:38,138 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: C:\Users\ramaz\AppData\Local\Temp\knime_temp_space_ramaz_95054\ist434_ornek_3.knwf95057\D\Hacettepe\Big Data\2. Hafta\uygulama 2\ist434_ornek_3.knwf\ROC Curve (#16)\internal\representation.xml (Sistem belirtilen yolu bulamıyor)
+2023-05-30 14:56:38,139 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: K Nearest Neighbor 4:11
+2023-05-30 14:56:38,140 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "K Nearest Neighbor": No such data file: C:\Users\ramaz\AppData\Local\Temp\knime_temp_space_ramaz_95054\ist434_ornek_3.knwf95057\D\Hacettepe\Big Data\2. Hafta\uygulama 2\ist434_ornek_3.knwf\K Nearest Neighbor (#11)\port_1\data.xml
+2023-05-30 14:56:38,140 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: K Nearest Neighbor 4:18
+2023-05-30 14:56:38,140 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "K Nearest Neighbor": No such data file: C:\Users\ramaz\AppData\Local\Temp\knime_temp_space_ramaz_95054\ist434_ornek_3.knwf95057\D\Hacettepe\Big Data\2. Hafta\uygulama 2\ist434_ornek_3.knwf\K Nearest Neighbor (#18)\port_1\data.xml
+2023-05-30 14:56:38,140 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Column Filter 4:17
+2023-05-30 14:56:38,140 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Column Filter": No such data file: C:\Users\ramaz\AppData\Local\Temp\knime_temp_space_ramaz_95054\ist434_ornek_3.knwf95057\D\Hacettepe\Big Data\2. Hafta\uygulama 2\ist434_ornek_3.knwf\Column Filter (#17)\port_1\data.xml
+2023-05-30 14:56:38,140 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: ROC Curve 4:15
+2023-05-30 14:56:38,140 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "ROC Curve": Can't read spec file C:\Users\ramaz\AppData\Local\Temp\knime_temp_space_ramaz_95054\ist434_ornek_3.knwf95057\D\Hacettepe\Big Data\2. Hafta\uygulama 2\ist434_ornek_3.knwf\ROC Curve (#15)\port_1\spec\spec.zip
+2023-05-30 14:56:38,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: C:\Users\ramaz\AppData\Local\Temp\knime_temp_space_ramaz_95054\ist434_ornek_3.knwf95057\D\Hacettepe\Big Data\2. Hafta\uygulama 2\ist434_ornek_3.knwf\ROC Curve (#15)\internal\representation.xml (Sistem belirtilen yolu bulamıyor)
+2023-05-30 14:56:38,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: MISSING Scorer (JavaScript) 4:12
+2023-05-30 14:56:38,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "MISSING Scorer (JavaScript)": No such data file: C:\Users\ramaz\AppData\Local\Temp\knime_temp_space_ramaz_95054\ist434_ornek_3.knwf95057\D\Hacettepe\Big Data\2. Hafta\uygulama 2\ist434_ornek_3.knwf\Scorer _JavaScript_ (#12)\port_1\data.xml
+2023-05-30 14:56:38,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load internally held tables for node "MISSING Scorer (JavaScript)": Cannot read directory C:\Users\ramaz\AppData\Local\Temp\knime_temp_space_ramaz_95054\ist434_ornek_3.knwf95057\D\Hacettepe\Big Data\2. Hafta\uygulama 2\ist434_ornek_3.knwf\Scorer _JavaScript_ (#12)\internalTables\object_0
+2023-05-30 14:56:38,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: MISSING Scorer (JavaScript) 4:19
+2023-05-30 14:56:38,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "MISSING Scorer (JavaScript)": No such data file: C:\Users\ramaz\AppData\Local\Temp\knime_temp_space_ramaz_95054\ist434_ornek_3.knwf95057\D\Hacettepe\Big Data\2. Hafta\uygulama 2\ist434_ornek_3.knwf\Scorer _JavaScript_ (#19)\port_1\data.xml
+2023-05-30 14:56:38,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load internally held tables for node "MISSING Scorer (JavaScript)": Cannot read directory C:\Users\ramaz\AppData\Local\Temp\knime_temp_space_ramaz_95054\ist434_ornek_3.knwf95057\D\Hacettepe\Big Data\2. Hafta\uygulama 2\ist434_ornek_3.knwf\Scorer _JavaScript_ (#19)\internalTables\object_0
+2023-05-30 14:56:38,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: ROC Curve 4:20
+2023-05-30 14:56:38,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "ROC Curve": Can't read spec file C:\Users\ramaz\AppData\Local\Temp\knime_temp_space_ramaz_95054\ist434_ornek_3.knwf95057\D\Hacettepe\Big Data\2. Hafta\uygulama 2\ist434_ornek_3.knwf\ROC Curve (#20)\port_1\spec\spec.zip
+2023-05-30 14:56:38,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: C:\Users\ramaz\AppData\Local\Temp\knime_temp_space_ramaz_95054\ist434_ornek_3.knwf95057\D\Hacettepe\Big Data\2. Hafta\uygulama 2\ist434_ornek_3.knwf\ROC Curve (#20)\internal\representation.xml (Sistem belirtilen yolu bulamıyor)
+2023-05-30 14:56:38,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Decision Tree Learner 4:8
+2023-05-30 14:56:38,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Decision Tree Learner": Can't read spec file C:\Users\ramaz\AppData\Local\Temp\knime_temp_space_ramaz_95054\ist434_ornek_3.knwf95057\D\Hacettepe\Big Data\2. Hafta\uygulama 2\ist434_ornek_3.knwf\Decision Tree Learner (#8)\port_1\spec\spec.zip
+2023-05-30 14:56:38,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Decision Tree Predictor 4:9
+2023-05-30 14:56:38,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Decision Tree Predictor": No such data file: C:\Users\ramaz\AppData\Local\Temp\knime_temp_space_ramaz_95054\ist434_ornek_3.knwf95057\D\Hacettepe\Big Data\2. Hafta\uygulama 2\ist434_ornek_3.knwf\Decision Tree Predictor (#9)\port_1\data.xml
+2023-05-30 14:56:38,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: MISSING Scorer (JavaScript) 4:13
+2023-05-30 14:56:38,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "MISSING Scorer (JavaScript)": No such data file: C:\Users\ramaz\AppData\Local\Temp\knime_temp_space_ramaz_95054\ist434_ornek_3.knwf95057\D\Hacettepe\Big Data\2. Hafta\uygulama 2\ist434_ornek_3.knwf\Scorer _JavaScript_ (#13)\port_1\data.xml
+2023-05-30 14:56:38,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load internally held tables for node "MISSING Scorer (JavaScript)": Cannot read directory C:\Users\ramaz\AppData\Local\Temp\knime_temp_space_ramaz_95054\ist434_ornek_3.knwf95057\D\Hacettepe\Big Data\2. Hafta\uygulama 2\ist434_ornek_3.knwf\Scorer _JavaScript_ (#13)\internalTables\object_0
+2023-05-30 14:56:38,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: ROC Curve 4:14
+2023-05-30 14:56:38,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "ROC Curve": Can't read spec file C:\Users\ramaz\AppData\Local\Temp\knime_temp_space_ramaz_95054\ist434_ornek_3.knwf95057\D\Hacettepe\Big Data\2. Hafta\uygulama 2\ist434_ornek_3.knwf\ROC Curve (#14)\port_1\spec\spec.zip
+2023-05-30 14:56:38,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: C:\Users\ramaz\AppData\Local\Temp\knime_temp_space_ramaz_95054\ist434_ornek_3.knwf95057\D\Hacettepe\Big Data\2. Hafta\uygulama 2\ist434_ornek_3.knwf\ROC Curve (#14)\internal\representation.xml (Sistem belirtilen yolu bulamıyor)
+2023-05-30 14:56:38,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: State has changed from EXECUTED to IDLE
+2023-05-30 14:57:16,189 : WARN  : main :  : Node : ROC Curve : 3:51 : Class column 'musteri_durumu ' does not exist
+2023-05-30 15:04:25,917 : WARN  : main :  : Node : K Nearest Neighbor : 3:51 : Auto-selected column 'Churn' as class column.
+2023-05-30 15:04:49,059 : WARN  : main :  : Node : Scorer : 3:52 : No columns selected yet.
+2023-05-30 17:49:26,663 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 3:40 : Internal model could not be loaded.
