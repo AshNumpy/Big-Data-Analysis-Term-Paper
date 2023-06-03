@@ -25,6 +25,7 @@ Metodoloji kısmında ise süreç;
 şeklinde 5 başlıkta incelenmiştir. Sonuç olarak ise projenin amacı olan müşterilerin çalkantılarını tahmin etmedeki başarı ise %81.467 olarak ölçülmüştür.
 
 > Detaylı raporlamaya `../ramazan-erduran-21821809.pdf` 'dan ulaşılabilir.
+> Veri işleme adımlarına ise `../ramazan-erduran-21821809.knwf` 'den ulaşılabilir.
 
 <p align="right"><i>Ramazan Erduran<i></p>
 <hr>
