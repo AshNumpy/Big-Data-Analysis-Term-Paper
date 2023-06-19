@@ -3,7 +3,7 @@
 
 
 ### Projenin Adı
-Bankası müşterilerinin çalkantı tahmini
+X-Bankası müşterilerinin çalkantı tahmini
 
 ### Projenin Amacı
 
