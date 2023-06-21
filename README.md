@@ -1,4 +1,4 @@
-<h2 align="center">IST434 Final Projesi</h2>
+<h2 align="center">IST434 Big Data Final Projesi</h2>
 <hr>
 
 
